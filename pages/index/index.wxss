@@ -1,0 +1,172 @@
+.containerAll{
+    width:100%;
+    overflow-x: hidden;
+}
+.switch{
+  display: block;
+  max-width:100%;
+  height:400rpx;
+}
+swiper-item{
+    display: block;
+}
+swiper .slide-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section{
+    width: 100%;
+    height:100px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-item{
+    display: flex;
+    width: 125px;
+    height:90px;
+    padding:5px 0;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-item image{
+    display: block;
+    width:50px;
+    height:50px;
+    margin:auto;
+}
+.flex-item text{
+    display: block;
+    text-align: center;
+    font-size:14px;
+}
+.clickColor{
+    background: #FFB;
+}
+.Color{
+    width:100%;
+    height:5px;
+    background-color: #DDD;
+}
+.titleH3{
+    display: flex;
+    width:100%;
+    font-size:18px;
+    font-weight: 600;
+    justify-content: center;
+    padding:8px 0;
+}
+.titleH3 image{
+    width:20px;
+    height:15px;
+}
+.xgjs{
+    display: flex;
+    width:100%;
+    height:210rpx;
+    justify-content: center;
+}
+.xgjs text{
+    font-size: 26rpx;
+}
+.kuang{
+    width:200rpx;
+    height:200rpx;
+    padding:4rpx;
+}
+.kuang  image{
+    width:200rpx;
+    height:200rpx;
+}
+.writing{
+    display: flex;
+    width:520rpx;
+    height:206rpx;
+    line-height: 30rpx;
+    text-indent: 1.5em;
+}
+.writing text{
+    padding:10rpx;
+    font-size: 28rpx;    
+}
+.writingTwo{
+    display: block;
+    margin-left:25rpx;
+    margin-right:25rpx;
+    padding-top:10rpx;
+    height:248rpx;
+    font-size: 28rpx;
+    text-indent: 1.5em;
+    line-height: 30rpx;
+}
+.writingTwo text{
+    display: block;
+}
+/*产品介绍  */
+.Imglist{
+    display: flex;
+    width:100%;
+    height:700rpx;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item-kuang{
+    display: block;
+    width:350rpx;
+    height:200rpx;
+     margin: 10rpx; 
+}
+.iconHot{
+    width:15px;
+    height:15px;
+}
+.item-kuang image{
+    display: block;
+    width:350rpx;
+    height:200rpx;
+    box-shadow:0px 0px 10px #AAA;
+}
+.shejitu{
+    display:-webkit-flex;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+    height:550rpx;
+}
+.shejitu image{
+    width:350rpx;
+    height:250rpx;
+    margin:2px;
+    box-shadow:0px 0px 10px #AAA;
+}
+.jionDianpu{
+    display: flex;
+    width:100%;
+    height:450rpx;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.jionDianpu image{
+    width:366rpx;
+    height:200rpx;
+    margin:2px;
+    box-shadow:0px 0px 10px #AAA;
+}
+.jion{
+    margin-left:25rpx;
+    margin-right:25rpx;
+}
+.jion-kuang{
+    margin-left:25rpx;
+    margin-right:25rpx;
+    padding-bottom: 40rpx;
+    word-wrap:break-word;
+}
+.jion-kuang text{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}

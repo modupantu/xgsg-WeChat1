@@ -1,0 +1,172 @@
+swiper-item{
+    display: block;
+}
+#swiper .slide-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section{
+    width: 100%;
+    height:100px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-item{
+    display: flex;
+    width: 125px;
+    height:90px;
+    padding:5px 0;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-item image{
+    display: block;
+    width:50px;
+    height:50px;
+    margin:auto;
+}
+.flex-item text{
+    display: block;
+    text-align: center;
+    font-size:14px;
+}
+.clickColor{
+    background: #FFB;
+}
+.Color{
+    width:100%;
+    height:5px;
+    background-color: #DDD;
+}
+.titleH3{
+    display: flex;
+    width:100%;
+    font-size:18px;
+    font-weight: 600;
+    justify-content: center;
+    padding:8px 0;
+}
+.titleH3 image{
+    width:15px;
+    height:15px;
+}
+.serollView{
+    display: block;
+    height:150px;
+    
+}
+.serollView text{
+    display: block;
+    font-size: 28rpx;
+    margin-left:25rpx;
+    margin-right:25rpx;
+    text-indent:2em;
+    
+}
+.video-view{
+    display: block;
+    width:100%;
+    height:100%;
+}
+#videoIntroduce{
+    display: block;
+    width:100%;
+    min-height: 200px;
+}
+/*qixia chanpin  */
+.qixia{
+    font-size:60rpx;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+/* xianguo introduce  */
+.introduce{
+    margin-left:25rpx;
+    margin-right:25rpx;
+}
+.introduce text{
+    display: block;
+    font-size: 28rpx;
+    text-indent: 2em;
+}
+/* xianguo shiguang */
+.xgjs{
+    display: flex;
+    width:100%;
+    height:210rpx;
+    justify-content: center;
+}
+.kuang{
+    width:200rpx;
+    height:200rpx;
+    padding:4rpx;
+}
+.kuang  image{
+    width:200rpx;
+    height:200rpx;
+}
+.writing{
+    display: flex;
+    width:520rpx;
+    height:206rpx;
+    margin-right:25rpx;
+    line-height: 30rpx;
+    text-indent: 1.5em;
+}
+.writing text{
+    padding:10rpx;
+    font-size: 26rpx;    
+}
+/*heguyufeng  */
+.writingTwo{
+    display: block;
+    width:100%;
+    padding-top:10rpx;
+    height:248rpx;
+    font-size: 26rpx;
+    text-indent: 1.5em;
+    line-height: 30rpx;
+}
+.writingthree{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding-top:10rpx;
+    height:248rpx;
+    font-size: 26rpx;
+    text-indent: 1.5em;
+    line-height: 30rpx;
+}
+.hegu{
+    width:200rpx;
+    height:200rpx;
+    padding:4rpx;
+}
+.hegu image{
+    display: block;
+    width:200rpx;
+    height:200rpx;
+}
+.dianpu{
+    width:100%;
+    text-align: center;
+}
+.jion{
+    margin-left:25rpx;
+    margin-right:25rpx;
+}
+.jion-kuang{
+    margin-left:25rpx;
+    margin-right:25rpx;
+    padding-bottom: 40rpx;
+    word-wrap:break-word;
+}
+.jion-kuang text{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}

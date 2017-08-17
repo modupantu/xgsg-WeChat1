@@ -1,0 +1,43 @@
+<view class="containerAll">
+    <image src="{{logo}}" class="logo"></image>
+    <view class="describe">
+        <view class="title">选择--“鲜果时光”</view>
+    </view>
+    <view class="xuanzeKuang">
+        <text class="text">品牌优势:</text>
+        <text class="content">“鲜果时光”品牌加盟店已经遍布全国各地，这无疑是最好的广告，等于给加盟商吃下了定心丸.</text>
+        <text class="text">强大的团队:</text>
+        <text class="content">为加盟商提供良好的学习实践基地，公司机构齐全，提供产品研发、前期选址、加盟推广、营销策划、销售支持等全过程综合服务。</text>
+        <text class="text">产品性价比:</text>
+        <text class="content">相比自己去独创事业，无论在时间上、资金上还是在精神上都减轻不少负担，加盟商在前期投资中减少了投资压力，降低了创业风险；通过一体化全程监督管理，使店面实现持续盈利的良性运转。</text>
+        <text class="text">品牌战略:</text>
+        <text class="content">专注餐饮：公司成立伊始就确立了“品牌”战略，以品牌塑造为核心，打造中国餐饮连锁第一品牌。</text>
+        <text class="text">现代管理系统:</text>
+        <text class="content">最完整的供应链提升产品品质,保障了每个鲜果时光的伙伴能够无忧运营店面，得到一对一的品牌管理服务。</text>
+    </view>
+    <view class="liucheng">
+        <image src="{{liucheng}}"></image>
+    </view>
+    <view class="Padding5px"></view>
+    <view class="erweima">
+        <image src="/image/xianguo.jpg"></image>
+    </view>
+    <text class="EWMtitle">北京鲜果时光</text>
+    <view class="Padding5px"></view>
+    <view class="erweima">
+        <image src="/image/yugu.jpg"></image>
+    </view>
+    <text class="EWMtitle">北京禾谷渔粉</text>
+    <text class="jiep">(截屏后扫描二维码)</text>
+    <view class="Padding5px"></view>
+    <view class="titleH3">
+        <image src="{{iconHot}}" class="iconHot"></image>
+        <text class="h3">加盟咨询</text>
+    </view>
+    <view class="jion">
+        <view class="jion-kuang">
+            <text>免费咨询电话:400-6199-517</text>
+            <text>地址:北京市丰台区广安路9号院国投财富广场2号楼1014</text>
+        </view>
+    </view>
+</view>

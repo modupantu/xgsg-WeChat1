@@ -1,0 +1,69 @@
+<swiper class="swiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="b">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" bindLoad="imageLoad" bindLoad="imageLoad" style="width:{{imageSize[0].width}}rpx; height:{{imageSize[0].height}}rpx" data-index="0" mode="scaleToFill"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="section">
+    <view class="center">
+        <navigator url="/pages/index/index" open-type="switchTab" class="flex-item bc_red" hover-class="clickColor">
+            <image src="/image/yinliao.png"></image>
+            <text>鲜果饮品系列</text>
+        </navigator>
+        <navigator url="/pages/fruits/index" class="flex-item bc_green" hover-class="clickColor">
+            <image src="/image/gongs.png"></image>
+            <text>公司介绍</text>
+        </navigator>
+        <navigator url="/pages/jione/index" open-type="switchTab" class="flex-item bc_blue" hover-class="clickColor">
+            <image src="/image/lianxi.png"></image>
+            <text>加盟热线</text>
+        </navigator>
+    </view>    
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{yufen}}" class="fish"></image>
+    <text class="h3">禾谷渔粉</text>
+</view>
+<view class="caidanLogo">
+    <image src="/image/yuguguanggao.jpg"></image>
+</view>
+<view class="HGcontainer">
+    <view class="HGshow" wx:for="{{HGImg}}" wx:key="b">
+         <image src="{{item}}" class="hgImgs"></image> 
+    </view>
+</view>
+<view class="Color"></view>
+<view class="heguLogo">
+    <image src="{{heguyufeng}}"></image>
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{sheji}}" class="fish"></image>
+    <text class="h3">店铺样式</text>
+</view>
+<view class="sheji">
+    <image src="/image/changjing.jpg"></image>
+    <image src="/image/changjing1.jpg"></image>
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{jiaru}}" class="fish"></image>
+    <text class="h3">全国店铺分布</text>
+</view>
+<view class="sheji">
+    <image src="/image/fenbutu.jpg"></image>
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="/image/lianxi.png" class="fish"></image>
+    <text class="h3">加盟咨询</text>
+</view>
+<view class="jion">
+    <view class="jion-kuang">
+        <text>免费咨询电话: 400-6199-517</text>
+        <text>地址：北京市丰台区广安路9号院国投财富广场2号楼1014</text>
+    </view>
+</view>

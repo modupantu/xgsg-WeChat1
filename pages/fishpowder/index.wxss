@@ -1,0 +1,117 @@
+.switch{
+  display: block;
+  max-width:100%;
+  height:400rpx;
+}
+swiper-item{
+    display: block;
+}
+swiper .slide-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section{
+    width: 100%;
+    height:100px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-item{
+    display: flex;
+    width: 125px;
+    height:90px;
+    padding:5px 0;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex-item image{
+    display: block;
+    width:100rpx;
+    height:100rpx;
+    margin:auto;
+}
+.flex-item text{
+    display: block;
+    text-align: center;
+    font-size:35rpx;
+}
+.clickColor{
+    background: #FFB;
+}
+.Color{
+    width:100%;
+    height:5px;
+    background-color: #DDD;
+}
+.caidanLogo{
+    width:100%;
+}
+.caidanLogo image{
+    width: 100%;
+}
+.heguLogo{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:170rpx;
+    background: #fff;
+}
+.heguLogo image{
+    height:170rpx;
+}
+.titleH3{
+    display: flex;
+    width:100%;
+    font-size:32rpx;
+    font-weight: 600;
+    justify-content: center;
+    padding:8px 0;
+}
+.fish{
+    width:32rpx;
+    height:32rpx;
+}
+/*container  */
+.HGcontainer{
+    display: flex;
+    width:100%;
+    height:568rpx;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.HGshow{
+    display: block;
+    width:300rpx;
+    height:250rpx;
+    background: red;
+    margin: 10rpx;
+}
+.hgImgs{
+    width:300rpx;
+    height:250rpx;
+    box-shadow:5px 5px 5px #AAA;
+}
+.sheji{
+    width:100%;
+}
+.sheji image{
+    width:100%;
+}
+.jion{
+    margin-left:25rpx;
+    margin-right:25rpx;
+}
+.jion-kuang{
+    margin-left:25rpx;
+    margin-right:25rpx;
+    padding-bottom: 40rpx;
+    word-wrap:break-word;
+}
+.jion-kuang text{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -1,0 +1,101 @@
+<swiper id="swiper" style="height:200px" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+  <block wx:for="{{lunbotu}}" wx:key="b">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" bindLoad="imageLoad" bindLoad="imageLoad" data-index="0" mode="scaleToFill"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="section">
+    <view class="center">
+        <navigator url="/pages/index/index" open-type="switchTab" class="flex-item bc_green" hover-class="clickColor">
+            <image src="/image/yinliao.png"></image>
+            <text>鲜果饮品系列</text>
+        </navigator>
+        <navigator url="/pages/fishpowder/index" class="flex-item bc_red" hover-class="clickColor">
+            <image src="/image/xiaochi.png"></image>
+            <text>禾谷渔粉系列</text>
+        </navigator>
+        <navigator url="/pages/jione/index" open-type="switchTab" class="flex-item bc_blue" hover-class="clickColor">
+            <image src="/image/lianxi.png"></image>
+            <text>加盟热线</text>
+        </navigator>
+    </view>
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{gongs}}" class="iconHot"></image>
+    <text class="h3">公司简介</text>
+</view>
+<view class="video-view">
+    <video id="videoIntroduce" src="{{videoSrc}}" poster="/image/xianguoLogo.png" controls></video>
+</view>
+<view class="Color"></view>
+<view class="introduce">
+    <text>“鲜果”以品牌知名度和优良的口碑，为投资者、消费者搭建桥梁，“鲜果”的成长是大众的热爱所致！</text>
+    <text>近年来“鲜果”无论从果茶饮、快餐品牌都取得了大众的信赖！并且以“迅雷不及掩耳之势”快速的扩散到大众的生活中。</text>
+    <text>身为行业的领导者，品牌的典范!“鲜果”清楚品牌的重要性，在健康、卫生、时尚的经营理念下督促进步。</text>
+    <text>“鲜果”的成功见证了：时代的需求和品牌的优质！</text>
+    <text>我们相信健康的产品、优雅的环境、“微笑”式服务是鲜果的闻名遐迩于华夏的根本！这就是“鲜果”的目标！</text>
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{pinpai}}" class="iconHot"></image>
+    <text class="h3">店铺分布</text>
+</view>
+<view class="dianpu">
+    <image src="/image/fenbutu.jpg"></image>
+</view>
+<view class="Color"></view>
+<view class="qixia">
+旗下产品
+</view>
+<view class="titleH3">
+    <image src="{{xianguo}}" class="iconHot"></image>
+    <text class="h3">鲜果时光</text>
+</view>
+<view class="xgjs">
+    <view class="kuang">
+        <image src="{{xgjs}}"></image>
+    </view>
+    <view class="writing">
+        <text class="writing-word">北京鲜果时光甜品饮料制作技术开发有限公司经十余年饮品研发，门店营销的行业领先经验,全国拥有两千余家加盟商及大众对公司自身产品的认可，重金打造的又一优势高端品牌。 "鲜果时光"时尚饮品店————引领都市新鲜时尚饮品风向标！</text>
+    </view>
+</view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{yufen}}" class="iconHot"></image>
+    <text class="h3">禾谷渔粉</text>
+</view>
+<view class="writingthree">
+    <view class="hegu">
+        <image src="/image/hegulogo.jpg"></image>
+    </view>
+    <view class="writing">
+        <text>渔粉的鲜美和酸辣口味调和的淋漓尽致，口味纯正，通过大厨的双手，在“麻辣鲜香”的基础上将菜式千变万化！吃的时候第一感觉就是鲜，鱼肉滑而不腻，米粉也是既筋道又柔软，喝了一口汤，味道是那种南方人能喜欢的川辣味，也有北方人喜欢的那种鲜美味，独特秘方.</text>
+    </view>
+</view>
+<view class="Color"></view>
+
+<view class="titleH3">
+    <image src="{{pinpai}}" class="iconHot"></image>
+    <text class="h3">品牌优势</text>
+</view>
+<scroll-view class="serollView" scroll-y>
+    <text>北京鲜果时光甜品饮料制作技术开发有限公司于2004年创立“鲜果时光”品牌并在冰城哈尔滨开启了第一家饮品店。</text>
+    <text>2007年，“鲜果时光”品牌在黑、吉、辽、鲁、豫、冀迅猛发展上百多家，已成为东北地区各城市时尚、健康饮品的主流品牌，实现了无数加盟创业人富足的梦想。</text>
+    <text>2010年3月“鲜果时光”品牌一代强势进驻北京，新鲜、健康的产品，贴心优质的服务使品牌在京城深入人心，并逐渐成为时尚大众的首选饮品品牌。</text>
+    <text>2012年初，北京鲜果时光甜品饮料制作技术开发有限公司以北京为中心向全国开拓市场，在北京、天津、吉林、黑龙江、辽宁、内蒙古等全国多个城市开设了分店。并于2012年5月成功筹办中国特许加盟展会。</text>
+    <text>迄今，“鲜果时光”品牌已经进行了全面升级，并将加盟店范围发展至全国各线城市。以其国际化的标示形象、清爽健康的果汁、醇厚绵远的奶香、亲和优质的服务，迈向新一个高度。</text>
+</scroll-view>
+<view class="Color"></view>
+<view class="titleH3">
+    <image src="{{iconHot}}" class="iconHot"></image>
+    <text class="h3">加盟咨询</text>
+</view>
+<view class="jion">
+    <view class="jion-kuang">
+        <text>免费咨询电话: 400-6199-517</text>
+        <text>地址：北京市丰台区广安路9号院国投财富广场2号楼1014</text>
+    </view>
+</view>

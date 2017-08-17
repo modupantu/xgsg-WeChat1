@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/jione/index",
+    "pages/fruits/index",
+    "pages/fishpowder/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "北京鲜果时光",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true"
+  },
+ "tabBar": {
+    "color": "#ddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "鲜果时光",
+            "iconPath": "image/home.png",
+            "selectedIconPath": "image/home1.png"
+        },
+        {
+            "pagePath": "pages/jione/index",
+            "text": "加盟咨询",
+            "iconPath": "image/contact.png",
+            "selectedIconPath": "image/contact1.png"
+        }
+    ]}
+}

@@ -1,0 +1,83 @@
+<view class="containerAll">
+    <swiper class="swiper" style="height:200px" indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="b">
+        <swiper-item>
+        <image src="{{item}}" class="slide-image" bindLoad="imageLoad" bindLoad="imageLoad" style="width:{{imageSize[0].width}}rpx; height:{{imageSize[0].height}}rpx" data-index="0" mode="scaleToFill"/>
+        </swiper-item>
+    </block>
+    </swiper>
+    <view class="Color"></view>
+    <view class="titleH3">
+        <image src="/image/yinliao.png" class="iconHot"></image>
+        <text class="h3">鲜果时光</text>
+    </view>
+    <view class="xgjs">
+        <view class="kuang">
+            <image src="{{xgjs}}"></image>
+        </view>
+        <view class="writing">
+            <text class="writing-word">北京鲜果时光甜品饮料制作技术开发有限公司经十余年饮品研发，门店营销的行业领先经验,全国拥有两千余家加盟商及大众对公司自身产品的认可，重金打造的又一优势高端品牌。"鲜果时光"时尚饮品店————引领都市新鲜时尚饮品风向标！</text>
+        </view>
+    </view>
+    <view class="writingTwo">
+        <text> "鲜果时光"品牌拥有自主知识产权，严谨的研发团队，凭借独有的管理模式，短短几年间，"新鲜，健康，时尚"的休闲消费理念...</text>
+        <text> 只是我们可以把消费者的喜欢与多年经验观察到的各种不经意之处，用专业的形式呈现给消费者。</text>
+        <text>“鲜果”清楚品牌的重要性，在健康、卫生、时尚的经营理念下督促进步。</text>
+        <text>“鲜果”的成功见证了:时代的需求和品牌的优质！</text>
+    </view>
+    <view class="Color"></view>
+    <view class="section">
+        <view class="center">
+            <navigator url="/pages/fishpowder/index" class="flex-item bc_red" hover-class="clickColor">
+                <image src="/image/xiaochi.png"></image>
+                <text>禾谷渔粉系列</text>
+            </navigator>
+            <navigator url="/pages/fruits/index" class="flex-item bc_green" hover-class="clickColor">
+                <image src="/image/gongs.png"></image>
+                <text>公司介绍</text>
+            </navigator>
+            <navigator url="/pages/jione/index" open-type="switchTab" class="flex-item bc_blue" hover-class="clickColor">
+                <image src="/image/lianxi.png"></image>
+                <text>加盟热线</text>
+            </navigator>
+        </view>    
+    </view>
+    <view class="Color"></view>
+    <view class="titleH3">
+        <image src="/image/new.png"></image>
+        <text class="h3">最新产品</text>
+    </view>
+    <view class="Imglist">
+        <view class="item-kuang" wx:for="{{Image}}" wx:key="b">
+            <image src="{{item}}"></image>
+        </view>
+    </view>
+    <view class="Color"></view>
+    <view class="titleH3">
+        <image src="{{sheji}}" class="iconHot"></image>
+        <text class="h3">店铺设计</text>
+    </view>
+    <view class="shejitu">
+        <image src="{{item}}" wx:for="{{sgsheji}}" wx:key="b"></image>
+    </view>
+    <view class="Color"></view>
+    <view class="titleH3">
+    <image src="{{iconHot}}" class="iconHot"></image>
+        <text class="h3"> 加盟店铺</text>
+    </view>
+    <view class="jionDianpu">
+        <image src="{{item}}" wx:for="{{jion}}" wx:key="b"></image>
+    </view>
+    <view class="Color"></view>
+    <view class="titleH3">
+        <image src="{{iconHot}}" class="iconHot"></image>
+        <text class="h3">加盟咨询</text>
+    </view>
+    <view class="jion">
+        <view class="jion-kuang">
+            <text>免费咨询电话: 400-6199-517</text>
+            <text>地址：北京市丰台区广安路9号院国投财富广场2号楼1014</text>
+        </view>
+    </view>
+</view>
