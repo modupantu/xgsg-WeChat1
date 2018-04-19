@@ -37,6 +37,15 @@ swiper .slide-image{
     height:50px;
     margin:auto;
 }
+.fonn{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 50px;
+  z-index: 1000;
+  background: red;
+}
 .flex-item text{
     display: block;
     text-align: center;

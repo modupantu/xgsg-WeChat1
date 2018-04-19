@@ -1,12 +1,12 @@
 Page({
     data: {
         imgUrls: [
-            '/image/lunbotu4.jpg',
-            '/image/lunbotu5.jpg',
-            '/image/lunbotu6.jpg',
-            '/image/lunbotu7.jpg',
-            '/image/lunbotu8.jpg',
-            '/image/lunbotu9.jpg'
+          { url: '/image/lunbotu4.jpg', font: 'xixixixixixixiixix'},
+          { url: '/image/lunbotu5.jpg', font: 'hhhhhhhhhhhhhhhhhh' },
+          { url: '/image/lunbotu6.jpg', font: 'zzzzzzzzzzzzzzzzzz' },
+          { url: '/image/lunbotu7.jpg', font: 'qqqqqqqqqqqqqqqqqq' },
+          { url: '/image/lunbotu8.jpg', font: 'wwwwwwwwwwwwwwwwwww' },
+          { url: '/image/lunbotu9.jpg', font: 'eeeeeeeeeeeeeeeeeee' }
         ],
         Image:[
             '/image/11.jpg',

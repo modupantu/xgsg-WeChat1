@@ -3,7 +3,8 @@
     autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}" wx:key="b">
         <swiper-item>
-        <image src="{{item}}" class="slide-image" bindLoad="imageLoad" bindLoad="imageLoad" style="width:{{imageSize[0].width}}rpx; height:{{imageSize[0].height}}rpx" data-index="0" mode="scaleToFill"/>
+        <image src="{{item.url}}" class="slide-image" bindLoad="imageLoad" bindLoad="imageLoad" style="width:{{imageSize[0].width}}rpx; height:{{imageSize[0].height}}rpx" data-index="0" mode="scaleToFill"/>
+        <view class='fonn'>{{item.font}}</view>
         </swiper-item>
     </block>
     </swiper>
